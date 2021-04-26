@@ -1,2 +1,3 @@
+properties([pipelineTriggers([githubPush()])])
 @Library('mysharedlib') _
-example params:"params"
+example "parameters"
